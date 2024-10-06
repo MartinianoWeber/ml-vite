@@ -59,9 +59,8 @@ describe("Item Component", () => {
     );
 
     const button = screen.getByRole("link");
-    fireEvent.click(button); // Simula el click en el botón
+    fireEvent.click(button);
 
-    // Verifica que navigate haya sido llamado con la ruta correcta
     expect(mockedNavigate).toHaveBeenCalledWith(`/items/${mockItem.id}`);
   });
 
