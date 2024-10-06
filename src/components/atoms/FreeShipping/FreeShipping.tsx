@@ -1,4 +1,3 @@
-import React from "react";
 import freeShipping from "../../../assets/freeShipping.svg";
 
 interface FreeShippingProps {

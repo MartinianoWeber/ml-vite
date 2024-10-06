@@ -1,4 +1,3 @@
-import React from "react";
 import FreeShipping from "../../atoms/FreeShipping/FreeShipping";
 import formatPrice from "../../../utils/formatPrice";
 import { useNavigate } from "react-router-dom";

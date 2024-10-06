@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1728232225335" clover="3.2.0">
+  <project timestamp="1728232225335" name="All files">
+    <metrics statements="18" coveredstatements="18" conditionals="5" coveredconditionals="5" methods="6" coveredmethods="6" elements="29" coveredelements="29" complexity="0" loc="18" ncloc="18" packages="4" files="4" classes="4"/>
+    <package name="components.atoms.FreeShipping">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="FreeShipping.tsx" path="C:\Users\marti\OneDrive\Escritorio\ml-test-vite\src\components\atoms\FreeShipping\FreeShipping.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="11" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.molecules.Item">
+      <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="Item.tsx" path="C:\Users\marti\OneDrive\Escritorio\ml-test-vite\src\components\molecules\Item\Item.tsx">
+        <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="13" count="15" type="stmt"/>
+        <line num="14" count="15" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="19" count="15" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.organisms.ListItems">
+      <metrics statements="4" coveredstatements="4" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
+      <file name="ListItems.tsx" path="C:\Users\marti\OneDrive\Escritorio\ml-test-vite\src\components\organisms\ListItems\ListItems.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="13" count="12" type="stmt"/>
+      </file>
+    </package>
+    <package name="utils">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="formatPrice.ts" path="C:\Users\marti\OneDrive\Escritorio\ml-test-vite\src\utils\formatPrice.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="24" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

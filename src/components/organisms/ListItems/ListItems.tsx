@@ -1,18 +1,7 @@
-import React, { useEffect } from "react";
 import Item from "../../molecules/Item/Item";
 
-interface ItemData {
-  id: string;
-  title: string;
-  price: any;
-  picture: string;
-  condition: string;
-  free_shipping: boolean;
-  location: string;
-}
-
 interface ListItemsProps {
-  data: ItemData[];
+  data: Item[];
 }
 
 export default function ListItems({ data }: ListItemsProps) {

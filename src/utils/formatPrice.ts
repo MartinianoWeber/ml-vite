@@ -1,3 +1,6 @@
 export default function formatPrice(price: number): string {
-  return price.toLocaleString("es-ES"); // Formateo para usar punto (.)
+  return price.toLocaleString("es-AR", {
+    minimumFractionDigits: 0,
+    maximumFractionDigits: 0,
+  });
 }
