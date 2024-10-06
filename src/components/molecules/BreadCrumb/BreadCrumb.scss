@@ -1,0 +1,36 @@
+.breadcrumb {
+  display: flex;
+  list-style: none;
+  padding: 1.4rem 0px;
+  margin: 0;
+  font-size: 1.4rem;
+
+  &__item {
+    margin-right: 0.5rem;
+
+    &::after {
+      content: "|";
+      margin-left: 0.5rem;
+      color: #ccc;
+    }
+
+    &:last-child::after {
+      content: "";
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+    color: blue;
+    transition: color 0.2s;
+
+    &:hover {
+      color: darkblue;
+    }
+  }
+
+  &__current {
+    color: gray;
+    pointer-events: none;
+  }
+}

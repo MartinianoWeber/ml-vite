@@ -1,0 +1,15 @@
+// base styles
+@import "./base/variables.scss";
+@import "./base/base.scss";
+
+// MOLECULES
+@import "../components/molecules/SearchBar/SearchBar.scss";
+@import "../components/molecules/Item/Item.scss";
+@import "../components/molecules/BreadCrumb/BreadCrumb.scss";
+// ORGANISMS
+@import "../components/organisms/Navbar/Navbar.scss";
+@import "../components/organisms/ListItems/Listitems.scss";
+@import "../components/organisms/DetailItem/DetailItem.scss";
+// PAGES
+@import "../pages/SearchResults.scss";
+@import "../pages/ProductDetail.scss";

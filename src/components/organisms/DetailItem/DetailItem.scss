@@ -1,0 +1,62 @@
+.detail-item {
+  display: flex;
+  flex-direction: column;
+
+  &__header {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    &-information {
+      display: flex;
+      flex-direction: column;
+      &-sold {
+        margin-bottom: 0;
+        font-size: 1.1rem;
+      }
+      &-title {
+        margin-top: 0.2rem;
+        font-weight: 800;
+        font-size: large;
+        margin-bottom: 0;
+      }
+      &-price {
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-top: 1.2rem;
+        margin-bottom: 5rem;
+        display: flex;
+        span {
+          font-size: 1.9rem;
+          margin-left: 0.2rem;
+        }
+      }
+
+      &-button {
+        background-color: #3483fa;
+        outline: none;
+        border: none;
+        padding: 1.8rem;
+        color: white;
+        cursor: pointer;
+        border-radius: 6px;
+      }
+    }
+
+    &-image {
+      width: 450px;
+      margin: auto;
+      height: 100%;
+    }
+  }
+
+  &__description {
+    h3 {
+      font-size: 20px;
+      font-weight: 500;
+      margin-bottom: 0.8rem;
+    }
+    p {
+      margin-top: 0px;
+      font-size: 1.4rem;
+    }
+  }
+}

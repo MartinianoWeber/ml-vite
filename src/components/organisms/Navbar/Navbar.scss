@@ -1,0 +1,13 @@
+.navbar {
+  background-color: $mlColor;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  gap: 20px;
+
+  &__logo {
+    width: 63px;
+    height: auto;
+  }
+}

@@ -1,0 +1,23 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* Generales */
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: $font-principal;
+  color: $negro;
+  margin: 0;
+  background-color: $mlBackgroundPage;
+}

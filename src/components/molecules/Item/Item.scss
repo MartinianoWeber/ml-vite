@@ -1,0 +1,51 @@
+.item {
+  width: 100%;
+  display: flex;
+  font-size: 2rem;
+  gap: 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.041);
+  border-right: 1px solid rgba(0, 0, 0, 0.041);
+  padding: 1.3rem 0rem;
+  text-decoration: none;
+  color: black;
+  &__image {
+    width: 200px;
+    height: auto;
+  }
+  &__information {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    &-box {
+      display: flex;
+      align-items: end;
+
+      p {
+        font-size: 1.2rem;
+        margin-left: auto;
+        width: calc(100% - 78%);
+      }
+      &-price {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        justify-content: space-between;
+
+        h2 {
+          font-size: 2.2rem;
+        }
+        &-shipping {
+          width: 24px;
+          background-color: rgb(3, 201, 3);
+          border-radius: 50%;
+          padding: 0.3rem;
+        }
+      }
+    }
+
+    &-description {
+      margin-top: 0.1rem;
+      font-size: 1.6rem;
+    }
+  }
+}
